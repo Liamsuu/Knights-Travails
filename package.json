@@ -1,0 +1,25 @@
+{
+  "name": "knights-travails",
+  "version": "1.0.0",
+  "description": "A knight chess piece shortest possible moves from starting position to new position.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liamsuu/Knights-Travails.git"
+  },
+  "keywords": [
+    "graphs",
+    "graph",
+    "chess"
+  ],
+  "author": "Liam Colley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Liamsuu/Knights-Travails/issues"
+  },
+  "homepage": "https://github.com/Liamsuu/Knights-Travails#readme",
+  "type": "module"
+}
