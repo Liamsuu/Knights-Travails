@@ -85,6 +85,14 @@ export default class Graph {
       ],
     ];
   }
+
+  removeVisitedAll() {
+    this.chessTable.forEach((row) => {
+      row.forEach((node) => {
+        node.removeVisited();
+      });
+    });
+  }
 }
 
 function setPossibleGrids(startLocation) {
@@ -133,6 +141,3 @@ function setPossibleGrids(startLocation) {
 
   return possibleLocations;
 }
-
-const board = new Graph();
-console.log(board.chessTable[1][6]);
